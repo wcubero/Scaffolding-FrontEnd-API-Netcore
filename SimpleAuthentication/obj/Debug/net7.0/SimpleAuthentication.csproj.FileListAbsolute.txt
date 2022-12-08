@@ -1,0 +1,13 @@
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\bin\Debug\net7.0\SimpleAuthentication.deps.json
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\bin\Debug\net7.0\SimpleAuthentication.dll
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\bin\Debug\net7.0\SimpleAuthentication.pdb
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\bin\Debug\net7.0\SimpleAuthentication.xml
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\SimpleAuthentication.csproj.AssemblyReference.cache
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\SimpleAuthentication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\SimpleAuthentication.AssemblyInfoInputs.cache
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\SimpleAuthentication.AssemblyInfo.cs
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\SimpleAuthentication.csproj.CoreCompileInputs.cache
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\SimpleAuthentication.dll
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\refint\SimpleAuthentication.dll
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\SimpleAuthentication.pdb
+C:\Users\EBS-WC-LPT01\source\repos\Exceltec.Presupuesto\SimpleAuthentication\obj\Debug\net7.0\ref\SimpleAuthentication.dll

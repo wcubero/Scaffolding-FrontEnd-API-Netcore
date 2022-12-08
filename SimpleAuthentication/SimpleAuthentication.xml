@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SimpleAuthentication</name>
+    </assembly>
+    <members>
+        <member name="T:SimpleAuthentication.SimpleAuthenticationExtensions">
+            <summary>
+            Provides extension methods for adding authentication support in ASP.NET Core.
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>
+        </member>
+        <member name="M:SimpleAuthentication.SimpleAuthenticationExtensions.AddSimpleAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.Boolean)">
+            <summary>
+            Registers services required by authentication services, reading configuration from the specified <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> source.
+            </summary>
+            <param name="services">The <see cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>.</param>
+            <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> being bound.</param>
+            <param name="sectionName">The name of the configuration section that holds authentication settings (default: Authentication).</param>
+            <param name="addAuthorizationServices">Set to <see langword="true"/> to automatically add Authorization policy services.</param>
+            <returns>A <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/> that can be used to further customize authentication.</returns>
+            <exception cref="T:System.ArgumentException">Configuration is invalid.</exception>
+            <exception cref="T:System.ArgumentNullException">One or more required configuration settings are missing.</exception>
+            <seealso cref="T:Microsoft.Extensions.DependencyInjection.IServiceCollection"/>
+            <seealso cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>
+            <seealso cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>    
+        </member>
+        <member name="M:SimpleAuthentication.SimpleAuthenticationExtensions.AddSimpleAuthentication(Microsoft.AspNetCore.Authentication.AuthenticationBuilder,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.Boolean)">
+            <summary>
+            Registers services required by authentication services, reading configuration from the specified <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> source.
+            </summary>
+            <param name="builder">The <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>.</param>
+            <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> being bound.</param>
+            <param name="sectionName">The name of the configuration section that holds authentication settings (default: Authentication).</param>
+            <param name="addAuthorizationServices">Set to <see langword="true"/> to automatically add Authorization policy services.</param>
+            <returns>A <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/> that can be used to further customize authentication.</returns>
+            <exception cref="T:System.ArgumentException">Configuration is invalid.</exception>
+            <exception cref="T:System.ArgumentNullException">One or more required configuration settings are missing.</exception>
+            <seealso cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>
+            <seealso cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>
+            <seealso cref="T:Microsoft.AspNetCore.Authentication.AuthenticationBuilder"/>
+        </member>
+        <member name="M:SimpleAuthentication.SimpleAuthenticationExtensions.UseAuthenticationAndAuthorization(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Adds the <see cref="T:Microsoft.AspNetCore.Authentication.AuthenticationMiddleware"/> and <see cref="T:Microsoft.AspNetCore.Authorization.AuthorizationMiddleware"/> middlewares to the
+            specified <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/>, which enable authentication and authorization capabilities.
+            When authorizing a resource that is routed using endpoint routing, this call
+            must appear between the calls to <c>app.UseRouting()</c> and <c>app.UseEndpoints(...)</c> for
+            the middleware to function correctly.
+            </summary>
+            <param name="app">The <see cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/> to add the middleware to.</param>
+            <returns>A reference to <paramref name="app"/> after the operation has completed.</returns>
+            <seealso cref="T:Microsoft.AspNetCore.Authentication.AuthenticationMiddleware"/>
+            <seealso cref="T:Microsoft.AspNetCore.Authorization.AuthorizationMiddleware"/>
+            <seealso cref="T:Microsoft.AspNetCore.Builder.IApplicationBuilder"/>
+        </member>
+        <member name="M:SimpleAuthentication.SimpleAuthenticationExtensions.AddSimpleAuthentication(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions,Microsoft.Extensions.Configuration.IConfiguration,System.String)">
+            <summary>
+            Adds authentication support in Swagger, enabling the Authorize button in the Swagger UI, reading configuration from the specified <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> source.
+            </summary>
+            <param name="options">The <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/> to add configuration to.</param>
+            <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> being bound.</param>
+            <param name="sectionName">The name of the configuration section that holds authentication settings (default: Authentication).</param>
+            <seealso cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/>
+            <seealso cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>
+        </member>
+        <member name="M:SimpleAuthentication.SimpleAuthenticationExtensions.AddSimpleAuthentication(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions,Microsoft.Extensions.Configuration.IConfiguration,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Adds authentication support in Swagger, enabling the Authorize button in the Swagger UI, reading configuration from a section named <strong>Authentication</strong> in <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> source.
+            </summary>
+            <param name="options">The <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/> to add configuration to.</param>
+            <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> being bound.</param>
+            <param name="additionalSecurityDefinitionNames">The name of additional security definitions that have been defined in Swagger.</param>
+            <seealso cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/>
+            <seealso cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>
+        </member>
+        <member name="M:SimpleAuthentication.SimpleAuthenticationExtensions.AddSimpleAuthentication(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions,Microsoft.Extensions.Configuration.IConfiguration,System.String,System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+            Adds authentication support in Swagger, enabling the Authorize button in the Swagger UI, reading configuration from the specified <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> source.
+            </summary>
+            <param name="options">The <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/> to add configuration to.</param>
+            <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> being bound.</param>
+            <param name="sectionName">The name of the configuration section that holds authentication settings (default: Authentication).</param>
+            <param name="additionalSecurityDefinitionNames">The name of additional security definitions that have been defined in Swagger.</param>
+            <seealso cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/>
+            <seealso cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>
+        </member>
+        <member name="M:SimpleAuthentication.SimpleAuthenticationExtensions.AddSimpleAuthentication(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.OpenApi.Models.OpenApiSecurityRequirement[])">
+            <summary>
+            Adds authentication support in Swagger, enabling the Authorize button in the Swagger UI, reading configuration from the specified <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> source.
+            </summary>
+            <param name="options">The <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/> to add configuration to.</param>
+            <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> being bound.</param>
+            <param name="securityRequirements">Additional security requirements to be added to Swagger definition.</param>
+            <seealso cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/>
+            <seealso cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>
+        </member>
+        <member name="M:SimpleAuthentication.SimpleAuthenticationExtensions.AddSimpleAuthentication(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions,Microsoft.Extensions.Configuration.IConfiguration,System.String,Microsoft.OpenApi.Models.OpenApiSecurityRequirement[])">
+            <summary>
+            Adds authentication support in Swagger, enabling the Authorize button in the Swagger UI, reading configuration from the specified <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> source.
+            </summary>
+            <param name="options">The <see cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/> to add configuration to.</param>
+            <param name="configuration">The <see cref="T:Microsoft.Extensions.Configuration.IConfiguration"/> being bound.</param>
+            <param name="sectionName">The name of the configuration section that holds authentication settings (default: Authentication).</param>
+            <param name="additionalSecurityRequirements">Additional security requirements to be added to Swagger definition.</param>
+            <seealso cref="T:Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions"/>
+            <seealso cref="T:Microsoft.Extensions.Configuration.IConfiguration"/>
+        </member>
+    </members>
+</doc>

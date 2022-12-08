@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Exceltec.Presupuesto.API.props" />
+</Project>
