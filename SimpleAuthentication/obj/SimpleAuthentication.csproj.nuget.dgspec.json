@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\exceltec.presupuesto\\SimpleAuthentication\\SimpleAuthentication.csproj": {}
+    "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\SimpleAuthentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\exceltec.presupuesto\\SimpleAuthentication\\SimpleAuthentication.csproj": {
+    "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\SimpleAuthentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\exceltec.presupuesto\\SimpleAuthentication\\SimpleAuthentication.csproj",
+        "projectUniqueName": "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\SimpleAuthentication.csproj",
         "projectName": "SimpleAuthenticationTools",
-        "projectPath": "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\exceltec.presupuesto\\SimpleAuthentication\\SimpleAuthentication.csproj",
+        "projectPath": "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\SimpleAuthentication.csproj",
         "packagesPath": "C:\\Users\\EBS-WC-LPT01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\exceltec.presupuesto\\SimpleAuthentication\\obj\\",
+        "outputPath": "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

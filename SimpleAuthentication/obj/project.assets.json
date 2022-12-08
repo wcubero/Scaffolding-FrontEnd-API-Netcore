@@ -909,11 +909,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Exceltec.Presupuesto\\SimpleAuthentication\\SimpleAuthentication.csproj",
+      "projectUniqueName": "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\SimpleAuthentication.csproj",
       "projectName": "SimpleAuthenticationTools",
-      "projectPath": "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Exceltec.Presupuesto\\SimpleAuthentication\\SimpleAuthentication.csproj",
+      "projectPath": "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\SimpleAuthentication.csproj",
       "packagesPath": "C:\\Users\\EBS-WC-LPT01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Exceltec.Presupuesto\\SimpleAuthentication\\obj\\",
+      "outputPath": "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

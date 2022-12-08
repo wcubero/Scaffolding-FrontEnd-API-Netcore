@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GMMVfzbeHj9vuPFatdbs0c5NoMofv+8xQtqGa9etm6IQWV9znwp74ezY0UteLmvgG8p4YSPJYtAk78iFbbFxLw==",
+  "dgSpecHash": "pwtoMLWOcrNeC+V5M072TkceF2GK1PwNHvYsQJX7z1qM6ukj2qZtDeeoyWUCUXCgk759ohrLwRLgqVXocX9q3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EBS-WC-LPT01\\Source\\Repos\\exceltec.presupuesto\\SimpleAuthentication\\SimpleAuthentication.csproj",
+  "projectFilePath": "C:\\Users\\EBS-WC-LPT01\\source\\repos\\Scaffolding-FrontEnd-API-Netcore\\SimpleAuthentication\\SimpleAuthentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EBS-WC-LPT01\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.11\\microsoft.aspnetcore.authentication.jwtbearer.6.0.11.nupkg.sha512",
     "C:\\Users\\EBS-WC-LPT01\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.0\\microsoft.aspnetcore.authentication.jwtbearer.7.0.0.nupkg.sha512",
